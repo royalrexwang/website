@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("C:/Users/wy/Desktop/js/2019_Alita_Battle_Angel_Films_Poster_1920x1200.jpg");/*背景图像*/
+    background-repeat: repeat-x; /*重复图像*/
+    background-position: left bottom; /*方向*/ 
+    background-color: rgb(127, 162, 228);
+
+}
+div{
+    border: 1px solid #000;
+    overflow: hidden;
+    padding: 0 1em .25em;
+}
+.example{
+    color:blue;
+    font-style: italic;/*斜体格式*/
+    font-weight: 100;/*粗体格式 400 为正常粗细，或者输入bold,bolder,lighter(更粗，更细)*/
+    font-size:15px;/*设置百分数，使用像素px,em，或者rem指定相对父类大小*/
+    line-height: 1.45;/*15px*1.45 设置行高*/
+    font:100% Geneva, Tahoma, Verdana, sans-serif;/*同时设置所有字体值*/
+    background-color: rgb(172, 252, 255);/*背景颜色设置*/
+}
+p{
+    color:rgba(140, 212, 71, 0.89);
+    font-weight: bold;
+    text-indent: 2em; /*文本缩进*/
+    text-align: left; /*对齐文本*/
+}
+img{
+    float: right;
+    margin: 1em;
+
+}
+h1,h2{
+    color: aliceblue;
+    font-size: 200%;
+    font-weight: normal;
+    word-spacing: 0.4em; /*字间距*/
+    letter-spacing: 4px; /*字偶距*/
+
+}
